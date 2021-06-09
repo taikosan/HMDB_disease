@@ -14,19 +14,29 @@ def disease_accession_table(infile, outfile):
     # print(sepratedlst)
     flatlst = [item for sublist in sepratedlst for item in sublist]
     uniquelst = sorted(set(flatlst))
-    omimdict = {omim: [] for omim in uniquelst}
+    omim_acc_dict = {omim: [] for omim in uniquelst}
+    omim_chebi_dict = {omim: [] for omim in uniquelst}
     for i, omimlst in enumerate(df['omim_id']):
         if type(omimlst) is not float:
             for id in omimlst.split(";"):
-                # print(id)
                 # print(df.iloc[i, df.columns.get_loc('accession')])
-                omimdict[id].append(df.iloc[i, df.columns.get_loc('accession')])
-    omimdict.pop('NA', None)
+                omim_acc_dict[id].append(df.iloc[i, df.columns.get_loc(
+                    'accession')])
+                omim_chebi_dict[id].append(str(df.iloc[i, df.columns.get_loc(
+                    'chebi_id')]))
+    omim_acc_dict.pop('NA', None)
+    omim_chebi_dict.pop('NA', None)
+    # print(omim_acc_dict)
+    # print(omim_chebi_dict)
 
-    disease_index_table = pd.DataFrame(columns=['omim_id', 'accessions'])
-    disease_index_table['omim_id'] = omimdict.keys()
-    acclst = [";".join(values) for values in omimdict.values()]
+    disease_index_table = pd.DataFrame(columns=['omim_id', 'accessions',
+                                                'chebi_id'])
+    disease_index_table['omim_id'] = omim_acc_dict.keys()
+    acclst = [";".join(values) for values in omim_acc_dict.values()]
+    chebilst = [";".join(values) for values in omim_chebi_dict.values()]
+    int_chebilst = [values.replace(".0", "") for values in chebilst]
     disease_index_table['accessions'] = acclst
+    disease_index_table['chebi_id'] = int_chebilst
     disease_index_table.to_csv(outfile, index=False)
 
 

@@ -1,16 +1,16 @@
-accession,disease_name,omim_id
-HMDB0000001,Kidney disease;Early preeclampsia;Pregnancy;Late-onset preeclampsia;Alzheimer's disease;Obesity;Diabetes mellitus type 2;Propionic acidemia;Maple syrup urine disease;Eosinophilic esophagitis,NA;NA;NA;NA;104300;601665;125853;606054;248600;610247
-HMDB0000002,Perillyl alcohol administration for cancer treatment;Colorectal cancer;Leukemia,NA;114500;NA
-HMDB0000005,Eosinophilic esophagitis,610247
-HMDB0000008,Colorectal cancer;Schizophrenia;Early preeclampsia;Pregnancy;Late-onset preeclampsia;Alzheimer's disease;Frontotemporal dementia;Lewy body disease;Pyruvate dehydrogenase deficiency;Eosinophilic esophagitis;Dihydrolipoamide Dehydrogenase Deficiency,114500;181500;NA;NA;NA;104300;600274;NA;312170;610247;246900
-HMDB0000010,Prolactinoma,600634
-HMDB0000011,"Diabetes mellitus type 2;Obesity;Pancreatic cancer;Colorectal cancer;Schizophrenia;Early preeclampsia;Pregnancy;Late-onset preeclampsia;2-Ketoglutarate dehydrogenase complex deficiency;3-Hydroxy-3-Methylglutaryl-CoA Synthase Deficiency;3-Hydroxyacyl-CoA dehydrogenase deficiency;Long-chain-3-hydroxyacyl CoA dehydrogenase deficiency;Short-chain L-3-hydroxyacyl-CoA dehydrogenase deficiency;Ketotic hypoglycemia;3-Hydroxy-3-methylglutaryl-CoA lyase deficiency;Adrenal hyperplasia, congenital, due to 3-beta-hydroxysteroid dehydrogenase 2 deficiency;Pyruvate dehydrogenase phosphatase deficiency;Carnitine palmitoyltransferase I deficiency;Anoxia;Meningitis;Ulcerative colitis;Crohn's disease;Alzheimer's disease;Frontotemporal dementia;Lewy body disease;Eosinophilic esophagitis;Medium Chain Acyl-CoA Dehydrogenase Deficiency;Fumarase deficiency;3-Hydroxyisobutyric acid dehydrogenase deficiency;3-Hydroxydicarboxylic aciduria;Pyruvate carboxylase deficiency",125853;601665;260350;114500;181500;NA;NA;NA;203740;605911;231530;NA;NA;NA;246450;201810;608782;255120;NA;NA;NA;266600;104300;600274;NA;610247;201450;606812;NA;NA;266150
-HMDB0000012,Thymidine phosphorylase deficiency;Colorectal cancer;Crohn's disease;Ulcerative colitis;Eosinophilic esophagitis,603041;114500;266600;NA;610247
-HMDB0000014,Crohn's disease;Ulcerative colitis;Colorectal cancer,266600;NA;114500
-HMDB0000015,11-beta-Hydroxylase deficiency;Sepsis,202010;NA
-HMDB0000016,"Congenital Adrenal Hyperplasia, due to 17-Hydroxylase-Deficiency",202110
-HMDB0000017,Crohn's disease;Iron deficiency;Colorectal cancer;Ulcerative colitis;Eosinophilic esophagitis,266600;NA;114500;NA;610247
-HMDB0000019,Colorectal cancer;Maple syrup urine disease,114500;248600
-HMDB0000020,Schizophrenia;Epilepsy;Colorectal cancer;Ulcerative colitis;Crohn's disease;Lung Cancer;Spina Bifida;Eosinophilic esophagitis;Perillyl alcohol administration for cancer treatment;Fumarase deficiency;Phenylketonuria,181500;NA;114500;NA;266600;211980;182940;610247;NA;606812;261600
-HMDB0000021,Athyreosis,NA
-HMDB0000022,Parkinson's disease;Brunner Syndrome,168600;300615
+accession,chebi_id,disease_name,omim_id
+HMDB0000001,50599,Kidney disease;Early preeclampsia;Pregnancy;Late-onset preeclampsia;Alzheimer's disease;Obesity;Diabetes mellitus type 2;Propionic acidemia;Maple syrup urine disease;Eosinophilic esophagitis,NA;NA;NA;NA;104300;601665;125853;606054;248600;610247
+HMDB0000002,15725,Perillyl alcohol administration for cancer treatment;Colorectal cancer;Leukemia,NA;114500;NA
+HMDB0000005,30831,Eosinophilic esophagitis,610247
+HMDB0000008,50613,Colorectal cancer;Schizophrenia;Early preeclampsia;Pregnancy;Late-onset preeclampsia;Alzheimer's disease;Frontotemporal dementia;Lewy body disease;Pyruvate dehydrogenase deficiency;Eosinophilic esophagitis;Dihydrolipoamide Dehydrogenase Deficiency,114500;181500;NA;NA;NA;104300;600274;NA;312170;610247;246900
+HMDB0000010,1189,Prolactinoma,600634
+HMDB0000011,17066,"Diabetes mellitus type 2;Obesity;Pancreatic cancer;Colorectal cancer;Schizophrenia;Early preeclampsia;Pregnancy;Late-onset preeclampsia;2-Ketoglutarate dehydrogenase complex deficiency;3-Hydroxy-3-Methylglutaryl-CoA Synthase Deficiency;3-Hydroxyacyl-CoA dehydrogenase deficiency;Long-chain-3-hydroxyacyl CoA dehydrogenase deficiency;Short-chain L-3-hydroxyacyl-CoA dehydrogenase deficiency;Ketotic hypoglycemia;3-Hydroxy-3-methylglutaryl-CoA lyase deficiency;Adrenal hyperplasia, congenital, due to 3-beta-hydroxysteroid dehydrogenase 2 deficiency;Pyruvate dehydrogenase phosphatase deficiency;Carnitine palmitoyltransferase I deficiency;Anoxia;Meningitis;Ulcerative colitis;Crohn's disease;Alzheimer's disease;Frontotemporal dementia;Lewy body disease;Eosinophilic esophagitis;Medium Chain Acyl-CoA Dehydrogenase Deficiency;Fumarase deficiency;3-Hydroxyisobutyric acid dehydrogenase deficiency;3-Hydroxydicarboxylic aciduria;Pyruvate carboxylase deficiency",125853;601665;260350;114500;181500;NA;NA;NA;203740;605911;231530;NA;NA;NA;246450;201810;608782;255120;NA;NA;NA;266600;104300;600274;NA;610247;201450;606812;NA;NA;266150
+HMDB0000012,16450,Thymidine phosphorylase deficiency;Colorectal cancer;Crohn's disease;Ulcerative colitis;Eosinophilic esophagitis,603041;114500;266600;NA;610247
+HMDB0000014,15698,Crohn's disease;Ulcerative colitis;Colorectal cancer,266600;NA;114500
+HMDB0000015,28324,11-beta-Hydroxylase deficiency;Sepsis,202010;NA
+HMDB0000016,16973,"Congenital Adrenal Hyperplasia, due to 17-Hydroxylase-Deficiency",202110
+HMDB0000017,17405,Crohn's disease;Iron deficiency;Colorectal cancer;Ulcerative colitis;Eosinophilic esophagitis,266600;NA;114500;NA;610247
+HMDB0000019,16530,Colorectal cancer;Maple syrup urine disease,114500;248600
+HMDB0000020,18101,Schizophrenia;Epilepsy;Colorectal cancer;Ulcerative colitis;Crohn's disease;Lung Cancer;Spina Bifida;Eosinophilic esophagitis;Perillyl alcohol administration for cancer treatment;Fumarase deficiency;Phenylketonuria,181500;NA;114500;NA;266600;211980;182940;610247;NA;606812;261600
+HMDB0000021,27847,Athyreosis,NA
+HMDB0000022,742324,Parkinson's disease;Brunner Syndrome,168600;300615
